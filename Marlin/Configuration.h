@@ -1440,6 +1440,9 @@
  */
 //#define SENSORLESS_PROBING
 
+// Need to let this when SENSORLESS_HOMING is disabled
+#define DIAG_JUMPERS_REMOVED
+
 /**
  * Allen key retractable z-probe as seen on many Kossel delta printers - https://reprap.org/wiki/Kossel#Autolevel_probe
  * Deploys by touching z-axis belt. Retracts by pushing the probe down.
